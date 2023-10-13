@@ -106,3 +106,16 @@ html,body{
     z-index: -1;
     cursor: pointer;
 }
+
+
+@keyframes turn{
+    0%{
+        top:9%;
+    }
+    50%{
+        top:18.5%
+    }
+    100%{
+        top:9%;
+    }
+}
