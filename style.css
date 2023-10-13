@@ -6,8 +6,6 @@ html,body{
     background-color: black;
 }
 .cirtains{
-
-    
     height: 100%;
     padding-bottom: 0;
     position: absolute;
@@ -19,7 +17,6 @@ html,body{
     transition: 0.2s;
     background-size: auto;/*?????  */
     z-index: 1;
-    
 }
 .cirtains:hover
 {
@@ -28,7 +25,6 @@ html,body{
 .div-torch{
  position: absolute;   
  left:50%;
-
  height: 40%;
  transform: translate(-50%,0);
 }
@@ -39,15 +35,20 @@ html,body{
     transform: translate(-50%,0);
     z-index: -1;
 }
+.turnoff{
+    transition: top 0.5s ease;
+    position: absolute;
+    height: 20%;
+    top:7vh;
+    transform: translate(-200%,0);
+    z-index:-2;
+}
 .hover-torch{
     position: absolute;
-    top:9.5%;
-    height: 16%;
-    width: 7.5vh;
-    left:-3.7vh;
+    top:28%;
+    width: 1.7vh;
+    left:-3.4vh;
     z-index: 1;
-    transform: perspective(4.5vh) rotateX(30deg);
-    
 }
 .hover-torch:hover{
     cursor: pointer;
@@ -64,7 +65,7 @@ html,body{
     left:50.3%;
     z-index: 0;
     transform: translate(-50%,0);
-    pointer-events:all;
+    pointer-events:none;
 }
 .magicbox{
     position: absolute;
@@ -78,7 +79,6 @@ html,body{
 .magic-girl{
     width: 60%;
     position: absolute;
-
 }
 .hat{
     width:16%;
